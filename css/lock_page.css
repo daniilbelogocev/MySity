@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&display=swap');
+
+
+.lock{
+	font-family: 'Montserrat';
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	z-index: 999;
+	background: linear-gradient(0deg, rgba(19,0,96,1) 20%, rgba(19,0,96,0.4797269249496674) 100%);
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.image_lock img{
+	max-width: 20vw;
+	max-height: 20vw;
+}
+
+.lock_text{
+	font-size: 40px;
+	margin-top: 40px;
+}
+
+.lock_subtext{
+	padding-top: 10px;
+	font-size: 20px;
+}
+
+.button_enter{
+	cursor: pointer;
+	margin-top: 30px;
+	/*border: 2px solid#ffffff;*/
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: linear-gradient(69deg, rgba(255,0,203,1) 0%, rgba(255,0,0,1) 100%);
+}
+.button_enter p{
+	font-size: 30px;
+	/*border: 2px solid#ffffff;*/
+	text-align: center;
+}
+
+.unlock{
+	width: 0%;
+	height: 0%;
+	z-index: 0;
+	display: none;
+}
+
+.unlock_trigger{
+	width: 100%;
+	position: fixed;
+	height: 100%;
+	z-index: 9;
+	display: none;
+	justify-content: flex-end;
+}
+
+.lock_button{
+	color: #ffffff;
+	font-size: 20px;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 20px;
+	/*border: 2px solid#ffffff;*/
+	width: 200px;
+	height: 70px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 20px;
+	background: linear-gradient(69deg, rgba(255,0,203,1) 0%, rgba(255,0,0,1) 100%);
+}

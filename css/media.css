@@ -1,0 +1,237 @@
+@keyframes showing-navs{
+	from{
+		transform: translate(0px, -5px);
+		opacity: 0;
+	}to{
+		transform: translate(0px, 0px);
+		opacity: 1;
+	}
+}
+
+@keyframes showing-web{
+	from{
+		opacity: 0;
+	}to{
+		opacity: 1;
+	}
+}
+
+@keyframes showing-header{
+	from{
+		background-color: #ffffff37;
+		width: 5vw;
+	}to{
+		width: 20vw;
+		background-color: #ffffffff;
+	}
+}
+
+@keyframes showing-title{
+	from{
+		opacity: 0;
+		transform: translate(0px, -5px);
+	}to{
+		opacity: 1;
+		transform: translate(0px, 0px);
+	}
+}
+
+
+@keyframes hiding-title{
+	from{
+		opacity: 1;
+		transform: translate(0px, 0px);
+	}to{
+		opacity: 0;
+		transform: translate(0px, 0px);
+	}
+}
+
+@keyframes showing-ico{
+	from{
+		padding: 0px 0px 0px 0px;
+	}to{
+		padding: 0px 20px 0px 0px;
+	}
+}
+
+@keyframes hiding-ico{
+	from{
+		padding: 0px 20px 0px 0px;
+	}to{
+		padding: 0px 0px 0px 0px;
+	}
+}
+
+@keyframes hiding-header{
+	from{
+		background-color: #ffffffff;
+		width: 20vw;
+	}to{
+		background-color: #ffffff37;
+		width: 5vw;
+	}
+}
+
+@keyframes active-nav{
+	from{
+		background-color: #ffffff00;
+		color: #000000;
+	}to{
+		background-color: #0042ff;
+		color: #ffffff;
+	}
+}
+
+@keyframes deactive-nav{
+	from{
+		background-color: #0042ff;
+		color: #ffffff;
+	}to{
+		background-color: #ffffff00;
+		color: #000000;
+		
+	}
+}
+
+@keyframes activating{
+	from{
+		display: none;
+		width: 0%;
+		font-size: 0vw;
+	}to{
+		display: block;
+		width: 100%;
+		font-size: 4vw;
+	}
+}
+
+@keyframes activating_small{
+	from{
+		display: none;
+		width: 0%;
+		font-size: 0vw;
+		opacity: 0;
+	}to{
+		display: block;
+		width: 50%;
+		font-size: 1vw;
+		opacity: 1;
+	}
+}
+
+@keyframes deactivating{
+	from{
+		display: block;
+		width: 100%;
+		font-size: 4wv;
+	}to{
+		display: none;
+		width: 0%;
+		font-size: 0wv;
+	}
+}
+
+@keyframes deactivating_small{
+	from{
+		display: block;
+		width: 50%;
+		font-size: 1wv;
+	}to{
+		display: none;
+		width: 0%;
+		font-size: 0wv;
+	}
+}
+
+@keyframes showing-link-ico{
+	from{
+		max-width: 2vw;
+		max-height: 2vw;
+		
+	}to{
+		max-width: 3vw;
+		max-height: 3vw;
+	}
+}
+
+@keyframes hiding-link-ico{
+	from{
+		max-width: 3vw;
+		max-height: 3vw;
+		
+	}to{
+		max-width: 2vw;
+		max-height: 2vw;
+	}
+}
+
+@keyframes welcome_show{
+	from{
+		opacity: 0;
+		letter-spacing: 7px;
+	}to{
+		opacity: 1;
+		letter-spacing: 3px;
+	}
+}
+
+@keyframes show-about{
+	from{
+		opacity: 0;
+		letter-spacing: 7px;
+	}to{
+		opacity: 1;
+		letter-spacing: 3px;
+	}
+}
+@keyframes hide-about{
+	from{
+		opacity: 1;
+		letter-spacing: 3px;
+	}to{
+		opacity: 0;
+		letter-spacing: 10px;
+	}
+}
+
+@keyframes show-begin{
+	from{
+		opacity: 0;
+		letter-spacing: 7px;
+		transform: translateX(-60px);
+	}to{
+		opacity: 1;
+		letter-spacing: 3px;
+		transform: translateX(0px);
+	}
+}
+@keyframes hide-begin{
+	from{
+		opacity: 1;
+		letter-spacing: 3px;
+	}to{
+		opacity: 0;
+		letter-spacing: 10px;
+	}
+}
+
+@keyframes scroll{
+	from{
+		transform: translateX(40vw);
+	}to{
+		transform: translateX(-60vw);
+	}
+}
+
+@keyframes hovering{
+	from{
+		box-shadow: 0px -5px 10px #ffffff, 0px 5px 10px #333333;
+		width: 25vw;
+		height: 25vw;
+	}to{
+		box-shadow: 0px -2px 10px #ffffff, 0px 2px 10px #333333;
+		width: 21vw;
+		height: 21vw;
+	}
+}

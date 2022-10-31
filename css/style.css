@@ -1,0 +1,26 @@
+@import 'nullstyle.css';
+@import 'header_style.css';
+@import 'media.css';
+@import 'block.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&display=swap');
+@import 'lock_page.css';
+
+body{
+	background-color: #cccccc;
+	display: flex;
+	flex-direction: row;
+	font-family: 'Montserrat';
+	animation-name: showing-web;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+
+}
+
+
+
+.content{
+	width: 100%;
+	background-color: #cccccc;
+	height: 100%;
+	
+}

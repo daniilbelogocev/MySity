@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,500;1,500&display=swap');
+@import 'media.css';
+
+.header_cont{
+	width: 5vw;
+	height: 100%;
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 99;
+}
+
+.header{
+	width: 100%;
+	height: 100%;
+	backdrop-filter: blur(5px);
+	background-color: #ffffff37;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	/*animation-name: showing-header;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;*/
+}
+
+.navigations{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 80%;
+	opacity: 0;
+	transform: translate(0px -5px);
+	animation-name: showing-navs;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 500ms;
+
+	/*border: 5px solid #ff0000;*/
+	/*border: 5px solid #ffff00;*/
+}
+
+.navigation{
+	
+	display: flex;
+	width: 100%;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+	background-color: #ffffff00;
+	color: #000000;
+}
+
+.navigation_icon img{
+	width: 10vw;
+	height: 10vw;
+	/*border: 5px solid #ff00ff;*/
+	max-width: 3vw;
+	max-height: 3vw;
+	min-height: 5px;
+	min-width: 5px;
+}
+
+.link_icon_img{
+	width: 4vw;
+	height: 4vw;
+	/*border: 5px solid #ff00ff;*/
+	max-width: 2vw;
+	max-height: 2vw;
+	min-height: 5px;
+	min-width: 5px;
+}
+
+.navigation_title{
+	/*border: 5px solid #00ffff;*/
+	opacity: 0;
+	transform: translate(0px, -5px);
+	font-size: 1.5vw;
+	text-align: center;
+	
+}
+
+
+.links{
+	display: flex;
+	/*border: 5px solid #00ffff;*/
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 20%;
+	opacity: 0;
+	transform: translate(0px, -5px);
+	animation-name: showing-navs;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-delay: 500ms;
+}
+
+.link{
+	padding: 0px 4px;
+	font-size: 1.5vw;
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.link_title{
+	padding: 4px 0px;
+	opacity: 0;
+	transform: translate(0px, -5px);
+	font-size: 1.5vw;
+}
+
+.nav_logo_cont{
+	width: 100%;
+	height: 15%;
+	/*border-bottom: 2px solid #000000;*/
+}
+
+.nav_logo{
+	width: 100%;
+	height: 100%;
+	/*border: 8px solid #00ff00;*/
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav_logo_img img{
+	max-width: 3vw;
+	max-height: 3vw;
+	/*border: 5px solid #0000ff;*/
+
+}
+
+.navigation_logo_title{
+	padding: 0px 20px;
+	/*display: none;
+	width: 0%;
+	font-size: 0vw;*/
+	opacity: 0;
+	/*border: 5px solid #0000ff;*/
+}
